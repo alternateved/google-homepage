@@ -23,6 +23,10 @@ body {
     color: black;
 }
 
+.top-navbar .left-side li a:hover {
+    text-decoration: underline;
+}
+
 .top-navbar .right-side {
     float: right;
     list-style: none;
@@ -34,6 +38,10 @@ body {
     padding: 5px 10px;
     text-decoration: none;
     color: black;
+}
+
+.top-navbar .right-side li a:hover {
+    text-decoration: underline;
 }
 
 .top-navbar li {
