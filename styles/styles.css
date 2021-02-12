@@ -1,13 +1,48 @@
 body {
+    font-family: arial,sans-serif;
 
 }
 
 .top-navbar {
-
+    width: 100%;
+    padding: 0;
+    font-size: 13px;
+    opacity: 0.75;
 }
 
+.top-navbar .left-side {
+    float: left;
+    list-style: none;
+    padding-left: 15px;
+}
+
+.top-navbar .left-side li a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.top-navbar .right-side {
+    float: right;
+    list-style: none;
+    padding-right: 15px;
+}
+
+.top-navbar .right-side li a {
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.top-navbar li {
+    float: left;
+}
+
+
 .main-buttons {
-    
+
 }
 
 .bottom-navbar {
