@@ -15,6 +15,9 @@ body {
     width: 100%;
     font-size: 13px;
     list-style: none;
+    min-width: auto;
+    height: 50px;
+    flex-grow: 1;
 }
 
 .top-navbar li {
@@ -22,7 +25,6 @@ body {
 }
 
 .top-navbar .left-side li a {
-    opacity: 0.75;
     color: #222;
     display: inline-block;
     padding: 5px 10px;
@@ -36,6 +38,10 @@ body {
 .top-navbar .right-side {
     float: right;
     display: flex;
+}
+
+.top-navbar .right-side li {
+    padding: 5px 10px;
 }
 
 #grid {
@@ -87,11 +93,20 @@ body {
 }
 
 .logo {
-    margin-top: 30px;
-    flex: 1;
+    padding-top: 100px;
+    margin-top:  auto;
+    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 45px;
+    
+}
+
+.logo img {
+    max-height: 100px;
+    display: block;
+    
 }
 .search-box {
     display: flex;
@@ -151,6 +166,8 @@ body {
 .main-buttons {
     font-family: arial,sans-serif;
     font-size: 14px;
+    padding-top: 18px;
+    height: 70px;
 }
 
 .main-buttons button {
@@ -181,10 +198,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
     border-top: 1px solid #e4e4e4;
     background-color: #f2f2f2;
-    padding: 0 20px;
+    padding: 0;
     box-sizing: border-box;
     position: absolute;
     bottom: 0;
