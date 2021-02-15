@@ -6,7 +6,6 @@ body {
 .top-navbar {
     width: 100%;
     font-size: 13px;
-    opacity: 0.75;
     list-style: none;
 }
 
@@ -14,15 +13,24 @@ body {
     float: right;
 }
 
-.top-navbar li a {
+.left-side li a {
+    opacity: 0.75;
+    float: right;
     color: #222;
     display: inline-block;
     padding: 5px 10px;
     text-decoration: none;
 }
 
-.top-navbar li a:hover {
+.left-side li a:hover {
     text-decoration: underline;
+}
+
+.top-navbar li a {
+    color: #222;
+    display: inline-block;
+    padding: 5px 10px;
+    text-decoration: none;
 }
 
 #grid {
@@ -48,6 +56,8 @@ body {
     font-size: 14px;
     font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     font-weight: 500;
+    letter-spacing: .25px;
+    line-height: 16px;
     color: white;
     padding: 9px 23px;
     min-width: 96px;
