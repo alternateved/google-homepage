@@ -13,7 +13,7 @@ body {
     float: right;
 }
 
-.left-side li a {
+.top-navbar .left-side li a {
     opacity: 0.75;
     float: right;
     color: #222;
@@ -22,7 +22,7 @@ body {
     text-decoration: none;
 }
 
-.left-side li a:hover {
+.top-navbar .left-side li a:hover {
     text-decoration: underline;
 }
 
@@ -71,16 +71,48 @@ body {
 }
 
 #sign-in:hover {
-    background: #2b7de9;
     -moz-box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
     box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
 
 }
+
 .main-buttons {
 
 }
 
 .bottom-navbar {
-
+    width: 100%;
+    font-size: 14px;
 }
 
+.bottom-navbar .left-side li {
+    float: left;
+    list-style: none;
+}
+
+.bottom-navbar .right-side li {
+    float: right;
+    list-style: none;
+}
+
+.bottom-navbar .left-side li a {
+    color: #70757a;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.bottom-navbar .left-side li a:hover {
+    text-decoration: underline;
+}
+
+.bottom-navbar .right-side li a {
+    color: #70757a;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.bottom-navbar .right-side li a:hover {
+    text-decoration: underline;
+}
