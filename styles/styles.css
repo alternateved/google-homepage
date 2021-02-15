@@ -23,7 +23,6 @@ body {
 
 .top-navbar .left-side li a {
     opacity: 0.75;
-    float: right;
     color: #222;
     display: inline-block;
     padding: 5px 10px;
@@ -32,6 +31,11 @@ body {
 
 .top-navbar .left-side li a:hover {
     text-decoration: underline;
+}
+
+.top-navbar .right-side {
+    float: right;
+    display: flex;
 }
 
 #grid {
@@ -94,8 +98,82 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.main-buttons {
 
+.input-container {
+    display: flex;
+    padding: 5px 8px 0 16px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    height: 44px;
+    border-radius: 24px;
+    outline: none;
+    width: 100%;
+}
+
+.input-container:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-icon {
+    position: relative;
+    align-self: center;
+    height: 20px;
+    opacity: 0.4;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+}
+
+.input-container input {
+    align-self: center;
+    background: transparent;
+    border: none;
+    height: 44px;
+    color: transparent;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 17px;
+    margin: 0;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    outline: none;
+    width: 100%;
+}
+
+.main-buttons {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+
+.main-buttons button {
+    font-family: arial,sans-serif;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.main-buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
 
 .bottom-navbar {
