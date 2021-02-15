@@ -8,36 +8,24 @@ body {
     padding: 0;
     font-size: 13px;
     opacity: 0.75;
-}
-
-.top-navbar .left-side {
-    float: left;
-    list-style: none;
-    padding-left: 15px;
-}
-
-.top-navbar .left-side li a {
-    color: #222;
-    display: inline-block;
-    padding: 5px 10px;
-    text-decoration: none;
-}
-
-.top-navbar .left-side li a:hover {
-    text-decoration: underline;
-}
-
-.top-navbar .right-side {
     float: right;
     list-style: none;
     padding-right: 15px;
 }
 
-.top-navbar .right-side li a {
+.top-navbar li {
+    float: right;
+}
+
+.top-navbar li a {
     color: #222;
     display: inline-block;
     padding: 5px 10px;
     text-decoration: none;
+}
+
+.top-navbar li a:hover {
+    text-decoration: underline;
 }
 
 #grid {
@@ -56,15 +44,6 @@ body {
 #grid:hover {
     opacity: 2;
 }
-
-.top-navbar .right-side li a:hover {
-    text-decoration: underline;
-}
-
-.top-navbar li {
-    float: left;
-}
-
 
 .main-buttons {
 
