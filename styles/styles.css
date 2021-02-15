@@ -5,12 +5,9 @@ body {
 
 .top-navbar {
     width: 100%;
-    padding: 0;
     font-size: 13px;
     opacity: 0.75;
-    float: right;
     list-style: none;
-    padding-right: 15px;
 }
 
 .top-navbar li {
@@ -42,9 +39,33 @@ body {
 }
 
 #grid:hover {
-    opacity: 2;
+    opacity: 1;
 }
 
+#sign-in {
+    background-color: #2B7DE9;
+    border: 1px solid transparent;
+    font-size: 14px;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    color: white;
+    padding: 9px 23px;
+    min-width: 96px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 8px;
+}
+
+#sign-in:hover {
+    background: #2b7de9;
+    -moz-box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+
+}
 .main-buttons {
 
 }
